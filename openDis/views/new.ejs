@@ -1,0 +1,13 @@
+<% include partials/header %>
+
+<div>
+    <form action="/home" method="POST">
+        <input type="text" name="post[title]" placeholder="Title">
+        <input type="text" name="post[image]" placeholder="Image url">
+        <textarea name="post[body]">Enter Text Here</textarea>
+        <button>Submit</button>
+    </form>
+</div>
+
+
+<% include partials/footer %>

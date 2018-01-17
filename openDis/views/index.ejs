@@ -1,0 +1,44 @@
+<% include partials/header %>
+
+<div class="ui main text container">
+    
+    <div class="ui large header">openDis</div>
+    <div class="ui segment top attached">
+        <div class="ui items">
+            <% posts.forEach(function(post){ %>
+                <div class="ui item segment">
+                        <div class="ui top attached segment">
+                            <div class="image">
+                                <img id="circle" src="<%= post.image %>" class="ui small circular image">
+                            </div>
+                            <div class="content">
+                                <a href="/home/<%= post._id %>"><%= post.title %></a> 
+                                <p>Posted by: <%= post.author %></p>
+                            </div>
+                        </div>
+                    
+                        <div class="content">
+                            <div class="description">
+                                <p> <%- post.body.substring(0, 100) %> </p>
+                            </div>
+                            <div class="meta">
+                                <span><%= post.created.toDateString() %></span>
+                            </div>
+                        </div>
+                        <div class="extra">
+                            <a id="read" class="ui bottom right floated basic orange button" href="/home/<%= post._id %>">
+                                Read More
+                                <i class="mail outline icon"></i>
+                            </a>
+                        </div>
+                    
+                </div>
+                <div class="ui horizontal divider">
+                    <i class="angle double down icon"></i>
+                </div>
+        <% }); %>
+        </div>
+    </div>
+</div>
+
+<% include partials/footer %>

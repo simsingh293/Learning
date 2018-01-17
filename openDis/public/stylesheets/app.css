@@ -1,0 +1,21 @@
+/*#circle {*/
+/*    display: block;*/
+/*    max-width:50px;*/
+/*    max-height:50px;*/
+/*    width: auto;*/
+/*    height: auto;*/
+    
+/*}*/
+
+div#circle {
+    max-width: 25%;
+    margin: auto;
+}
+
+.container.main {
+    margin-top: 7.0em;
+}
+
+#read {
+    display: inline;
+}

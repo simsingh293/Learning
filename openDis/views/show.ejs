@@ -1,0 +1,18 @@
+<% include partials/header %>
+
+<h1><%= post.title %> </h1>
+<h5><%= post.author %> </h5>
+
+<div>
+    <img src="<%= post.image %>">
+    <p><%= post.body %></p>
+    <div>
+        <a href="/home/<%=post._id%>/edit">Edit Post</a>
+        <form action="/home/<%= post._id %>?_method=DELETE" method="POST">
+            <button>Delete</button>
+        </form>
+    </div>
+</div>
+
+<a href="/home">Go To HomePage</a>
+<% include partials/footer %>
