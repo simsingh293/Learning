@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RESTful Routing Chart</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+    </head>
+    <body>
+        <div>
+            <h1>RESTful Routes</h1>
+            <h4>A table of all 7 RESTful routes</h4>
+        </div>
+        <table class="ui celled table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Path</th>
+                    <th>HTTP Verb</th>
+                    <th>Purpose</th>
+                    <th>Mongoose Method</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Index</td>
+                    <td>/lions</td>
+                    <td>GET</td>
+                    <td>List all lions</td>
+                    <td>Lion.find()</td>
+                </tr>
+                <tr>
+                    <td>New</td>
+                    <td>/lions/new</td>
+                    <td>GET</td>
+                    <td>Show new lion form</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Create</td>
+                    <td>/lions</td>
+                    <td>POST</td>
+                    <td>Create new lion, then redirect somewhere(index)</td>
+                    <td>Lion.create()</td>
+                </tr>
+                <tr>
+                    <td>Show</td>
+                    <td>/lions/:id</td>
+                    <td>GET</td>
+                    <td>Show info about one specific lion</td>
+                    <td>Lion.findById()</td>
+                </tr>
+                <tr>
+                    <td>Edit</td>
+                    <td>/lions/:id/edit</td>
+                    <td>GET</td>
+                    <td>Show edit form for one lion</td>
+                    <td>Lion.findById</td>
+                </tr>
+                <tr>
+                    <td>Update</td>
+                    <td>/lions/:id</td>
+                    <td>PUT</td>
+                    <td>Update particular lion, then redirect somewhere</td>
+                    <td>Lion.findByIdAndUpdate()</td>
+                </tr>
+                <tr>
+                    <td>Destroy</td>
+                    <td>/lions/:id</td>
+                    <td>DELETE</td>
+                    <td>Delete a particular lion, then redirect somehwere</td>
+                    <td>Lion.findByIdAndRemove()</td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </body>
+</html>
