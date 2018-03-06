@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Z&Z-v2</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-default bg-warning">
+        <a class="navbar-brand" href="#">                
+            <img id="logo" src="https://cdn.dribbble.com/users/21845/screenshots/3938419/placeholder.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-list-ul"></i></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">About Us</a>
+                <a class="nav-item nav-link" href="#">Maze</a>
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Events
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <ul>
+                            <li>
+                                <a class="dropdown-tem" href="#">Upcoming Events</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-tem" href="#">Past Events</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-tem" href="#" >Sponsors</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a class="nav-item nav-link danger" href="#">Donate</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Verical Nav -->
+    <!-- <nav class="nav flex-sm-column float-left sticky-top">
+        <a class="nav-link active" href="#one">One</a>
+        <a class="nav-link" href="#two">Two</a>
+        <a class="nav-link" href="#three">Three</a>
+        <a class="nav-link" href="#four">Four</a>
+        <a class="nav-link" href="#five">Five</a>
+    </nav> -->
+
+    
+    
+    <div class="container-fluid" id="page">
+        <!-- Logo Display -->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container text-center" id="logoDisplay">
+                <h1 class="display-4">Z & Z Charities</h1>
+                <hr class="my-3">
+                <img class="rounded mx-auto d-block" src="https://t3.ftcdn.net/jpg/01/26/88/56/500_F_126885670_52nmZp6mOhdP3KQFdgWIfBpexAMjNXFI.jpg">             
+            </div>
+        </div>
+
+        
+
+        <!-- Initiative Description -->
+        <div class="container text-center" id="iniDesc">
+            <h2>Natural Disaster Relief Fund</h2>
+            <p>Providing aid to those affected by Nature's violence.</p>
+            <button type="button" class="btn btn-success">Donate</button>
+        </div>
+
+        
+
+        <!-- Events -->
+        <div class="container text-center" id="eventsDisplay">
+            <h2>Events</h2>
+            <img class="rounded mx-auto d-block" src="https://cdn.dribbble.com/users/21845/screenshots/3938419/placeholder.png">             
+        </div>
+
+        
+
+        <!-- About Us -->
+        <div class="container text-center" id="aboutDisplay">
+            <h2>About Us</h2>
+            <p>Jay is a managing partner at Maze Recruiting Inc. A recruitment firm dedicated to helping working professionals find the right job.</p>
+        </div>
+
+        
+
+        <!-- Maze Display -->
+        <div class="container text-center" id="mazeDisplay">
+            <img class="rounded mx-auto d-block" src="https://cdn.dribbble.com/users/21845/screenshots/3938419/placeholder.png">             
+            <p>
+                    Maze Recruiting is a division of the Bay Talent Group, that specializes in recruiting IT talent for companies in the greater Toronto area (GTA).
+                    Bay Talent Group is a premier global human capital company dedicated to the formation, by acquisition and operation of boutique Executive Search, Staffing & Consulting firms that specialize in a full range of professional services; including Accounting, Finance, IT, Legal, HR, and more.
+            </p>
+            <a class="btn btn-primary" href="http://mazerecruiting.com/" role="button">Visit Maze</a>            
+        </div>
+
+        
+
+        <!-- Sponsors -->
+        <div class="container text-center" id="sponDisplay">
+            <h2>Sponsors</h2>
+            <img class="rounded mx-auto d-block sponsoricon rounded-circle" src="https://cdn.dribbble.com/users/21845/screenshots/3938419/placeholder.png">             
+            <img class="rounded mx-auto d-block sponsoricon" src="https://cdn.dribbble.com/users/21845/screenshots/3938419/placeholder.png">             
+            <img class="rounded mx-auto d-block sponsoricon" src="https://cdn.dribbble.com/users/21845/screenshots/3938419/placeholder.png">             
+        </div>
+    </div>
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="scripts.js"></script> -->
+    
+</body>
+</html>

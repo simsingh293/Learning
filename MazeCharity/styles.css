@@ -1,0 +1,102 @@
+body {
+    margin: 0px 10px;
+    text-align: center;
+
+}
+
+#logo {
+    max-width: 60px;
+    max-height: 60px;
+    width: auto;
+    height: auto;
+    border: 2px solid lightblue;
+    border-radius: 30%;
+}
+
+
+.nav-link p {
+  border: 1px solid red;
+  color: skyblue;  
+  
+}
+
+#navbar {
+    margin: auto auto;
+    max-width: 1000px;
+    transform: center;
+}
+
+#page {
+    margin: auto ;
+    background-color: darkred;
+}
+
+#logoDisplay {
+    border: 5px solid red;
+    background-color: lightcoral;
+}
+
+#iniDesc {
+    border: 5px solid blue;
+    background-color: skyblue;
+}
+
+#eventsDisplay {
+    border: 5px solid red;
+    background-color: orange;
+}
+
+#aboutDisplay {
+    border: 5px solid blue;
+    background-color: skyblue;
+}
+
+#mazeDisplay {
+    border: 5px solid red;
+    background-color: orange;
+}
+
+#sponDisplay {
+    border: 5px solid blue;
+    background-color: skyblue;
+}
+
+.active{
+    color: rgb(0, 0, 0);
+    background-color: rgba(100,100,100,1);
+    border-left: thick solid rgba(0,255,0,0.5);
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 2px 0px 2px 10px;
+}
+
+.navbar-nav a:hover {
+    color: #fff;
+    background-color: black;
+    border-left: thick solid red;
+}
+
+
+
+img {
+    display: block;
+    max-width: 250px;
+    max-height: 250px;
+}
+.sponsoricon {
+    border: 2px solid red;
+    border-radius: 50%;
+    display: block;
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+p {
+    color: red;
+}
