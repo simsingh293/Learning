@@ -61,7 +61,7 @@ body {
     background-color: skyblue;
 }
 
-.active{
+{
     color: rgb(0, 0, 0);
     background-color: rgba(100,100,100,1);
     border-left: thick solid rgba(0,255,0,0.5);
